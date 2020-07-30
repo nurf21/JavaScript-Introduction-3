@@ -17,5 +17,5 @@ Contoh: getmonth(showMonth?)
 ## Tugas 3
 
 Buatlah program menggunakan method fetch untuk menampilkan semua name (hanya name nya saja) dari REST API dibawah ini
-![url](https://jsonplaceholder.typicode.com/users)
+[url](https://jsonplaceholder.typicode.com/users)
 Gunakan debugger console bawaan browser Chrome untuk melihat hasilnya
