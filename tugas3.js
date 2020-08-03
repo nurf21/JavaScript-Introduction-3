@@ -1,7 +1,4 @@
 fetch('https://jsonplaceholder.typicode.com/users')
     .then(res => res.json())
-    .then(data => showName(data));
-
-const showName = (data) => {
-    data.forEach(value => console.log(value.name));
-};
+    .then(data => data.forEach(value => console.log(value.name)))
+    .catch((error) => console.log(error));
